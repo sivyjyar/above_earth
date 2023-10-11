@@ -7,16 +7,23 @@
 
 о детекторах со сложной математикой + ссылками на более подробное описание каждого из типов: https://habr.com/ru/articles/244541/ 
 
-https://habr.com/ru/articles/106302/ - о дискрипторах + сифт
+https://habr.com/ru/articles/106302/ - о дискрипторах + сифт. о сифте более понятно из видео: https://youtu.be/4AvTMVD9ig0?si=YqlTXEofZ0FaWqdF
 
 https://habr.com/ru/articles/414459/ - fast + breif + orb
+
+
+
 
 
 Сверточные нейронные сети (CNN):
 
 основная информация + понятное объяснение: https://habr.com/ru/articles/309508/
+
 полезно+интересно о свертке: https://youtu.be/KuXjwB4LzSA?si=lsthKjPBq2sVPRFm
+
 много лекций/докладов по компьютерному зрению, нейронным сетям + ии. https://www.youtube.com/@cogmodel/videos
+
+
 
 VLAD:
 https://youtu.be/Ug9D6JmI5ak?si=RTcKM1GTfdi8y2ic -  BoW и немного про VLAD
