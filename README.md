@@ -18,6 +18,9 @@ https://habr.com/ru/articles/414459/ - fast + breif + orb
 полезно+интересно о свертке: https://youtu.be/KuXjwB4LzSA?si=lsthKjPBq2sVPRFm
 много лекций/докладов по компьютерному зрению, нейронным сетям + ии. https://www.youtube.com/@cogmodel/videos
 
+VLAD:
+https://youtu.be/Ug9D6JmI5ak?si=RTcKM1GTfdi8y2ic -  BoW и немного про VLAD
+
 
 Open CV:
 
