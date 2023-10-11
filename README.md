@@ -11,6 +11,14 @@ https://habr.com/ru/articles/106302/ - о дискрипторах + сифт
 
 https://habr.com/ru/articles/414459/ - fast + breif + orb
 
+
+Сверточные нейронные сети (CNN):
+
+основная информация + понятное объяснение: https://habr.com/ru/articles/309508/
+полезно+интересно о свертке: https://youtu.be/KuXjwB4LzSA?si=lsthKjPBq2sVPRFm
+
+
+
 Open CV:
 
 1) #004 OpenCV projects – How to extract features from the image in Python?
