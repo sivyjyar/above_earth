@@ -16,7 +16,7 @@ https://habr.com/ru/articles/414459/ - fast + breif + orb
 
 основная информация + понятное объяснение: https://habr.com/ru/articles/309508/
 полезно+интересно о свертке: https://youtu.be/KuXjwB4LzSA?si=lsthKjPBq2sVPRFm
-
+много лекций/докладов по компьютерному зрению, нейронным сетям + ии. https://www.youtube.com/@cogmodel/videos
 
 
 Open CV:
