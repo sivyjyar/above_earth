@@ -23,6 +23,8 @@ https://habr.com/ru/articles/414459/ - fast + breif + orb
 
 много лекций/докладов по компьютерному зрению, нейронным сетям + ии. https://www.youtube.com/@cogmodel/videos
 
+https://youtu.be/UOvPeC8WOt8?si=fhKwnej9cgDN_V5q - очень понятно графически про веса нейронных сетей.
+
 https://www.youtube.com/@firstprinciplesofcomputerv3258/videos - по компьютерному зрению. полезно и доходчиво. много коротких видео на конкретные темы.
 
 
