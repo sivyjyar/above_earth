@@ -23,6 +23,7 @@ https://habr.com/ru/articles/414459/ - fast + breif + orb
 
 много лекций/докладов по компьютерному зрению, нейронным сетям + ии. https://www.youtube.com/@cogmodel/videos
 
+https://www.youtube.com/@firstprinciplesofcomputerv3258/videos - по компьютерному зрению. полезно и доходчиво. много коротких видео на конкретные темы.
 
 
 VLAD:
