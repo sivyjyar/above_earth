@@ -1,0 +1,54 @@
+
+попытка понять процесс работы NetVlad путем Reverse-engineering
+
+путем изучения import'ов конечного скрипта (тест.пай), выяснилось, что все строится на скрипте layers.py.
+
+
+
+
+РАЗБОРЫ непосредственно каждого скрипта:
+
+nets.py:
+
+	def vgg16NetvladPca(image_batch):
+	    ''' Assumes rank 4 input, first 3 dims fixed or dynamic, last dim 1 or 3. 
+	    '''
+	    assert len(image_batch.shape) == 4 # проверка 
+	    
+тут image_batch - тензор из изображений. например: The image_batch is a tensor of the shape (32, 180, 180, 3). This is a batch of 32 images of shape 180x180x3 (the last dimension refers to color channels RGB). 
+
+assert - проверка, соответсвует ли размерность тензора - 4. если нет, выдает ошибку.
+
+
+	   with tf.variable_scope('vgg16_netvlad_pca'):
+	   
+как я понял, задает имя для графа, который будет рассчитываться. например:
+with tf.compat.v1.variable_scope("foo"):
+    with tf.compat.v1.variable_scope("bar"):
+        v = tf.compat.v1.get_variable("v", [1])
+        assert v.name == "foo/bar/v:0"
+        
+        	
+        	if image_batch.shape[3] == 1:
+        	
+ проверка, черно-белые ли изображения (если третий отвечает за РГБ, то все так))
+ 
+ 
+ 		x = tf.nn.conv2d(image_batch, np.ones((1, 1, 1, 3)), 
+                                  np.ones(4).tolist(), 'VALID')
+                                  
+ это свертка. только какойто невозможной для понимания матрицей 1 на 1 на 1 на 3. 
+ tf.nn.conv2d(
+    input,
+    filters,
+    strides,
+    padding,
+    data_format='NHWC',
+    dilations=None,
+    name=None
+)
+
+фильтр должен быть такой же размерности, как и вход. страйдс - шаг свертки. 
+
+далее идут остальные функции описания элементов нейронки, после чего идет ряд действий, реализующих архитеркуру сети VGG16, а после - элементы , реализующие НэтВлад.
+                           
